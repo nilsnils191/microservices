@@ -2,7 +2,6 @@ package com.microservice.demo.netflixzuulapigatewayserver;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.http.protocol.RequestContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -27,8 +26,6 @@ public class ZuulLogginFilter extends ZuulFilter {
 		// TODO Auto-generated method stub
 		HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
 		
-		logger.info(" Zuul Filter Request object info {}",request);
-		logger.info(" Zuul Filter Request URI info {}",request.getRequestURI());
 		logger.info(" Zuul Filter Request URL {}",request.getRequestURL());
 		return null;
 	}
