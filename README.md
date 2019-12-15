@@ -1,3 +1,10 @@
+# Notes
+ Notes can be found here spring-microservices-presentation.pdf file 
+https://github.com/nilsnils191/microservices/blob/master/spring-microservices-presentation.pdf
+
+ 
+ 
+
 # Diagram
 
 ```
